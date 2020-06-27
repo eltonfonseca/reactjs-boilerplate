@@ -1,0 +1,37 @@
+{
+  "name": "reactjs-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eltonfonseca/reactjs-boilerplate.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --host 0.0.0.0 --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/runtime": "^7.10.3",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  }
+}

@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  react:
+    build: .
+    command: sh -c "yarn && yarn start"
+    volumes:
+      - .:/opt/app
+    ports:
+      - 80:80
